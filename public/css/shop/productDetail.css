@@ -1,0 +1,179 @@
+@CHARSET "ISO-8859-1";
+
+.normal-font {
+	font-size: 18px;
+}
+
+.big-font {
+	font-size: 21px;
+}
+
+.bigger-font {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.black-text {
+	color: black !important;
+}
+
+#productInfo {
+	display: inline-block !important;
+	width: 100%;
+	padding: 50px;
+}
+
+#productInfo>div {
+	float: left;
+}
+
+#productInfo #productImages {
+	border: 1px solid grey;
+}
+
+#productInfo #mainImage>img {
+	width: 100%;
+}
+
+#productInfo .allImages>img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#productInfo #productDetails {
+	width: 40%;
+	padding: 20px;
+}
+
+#productInfo #productDetails>label {
+	width: 100%;
+	color: red;
+}
+
+#productInfo #productDetails>p {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#productReviews {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid grey
+}
+
+#productReviews>div {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#productReviews .reviewEmail, .rating {
+	margin-top: 15px;
+	float: left;
+}
+
+#productReviews .writeReview {
+	margin-top: 60px;
+}
+
+#productReviews .writeReview .reviewTxt {
+	width: 100%;
+	height: 100px;
+}
+
+.review>div {
+	width: 100%;
+}
+
+.review>div>label {
+	float: left;
+	width: 50%
+}
+
+.review .createdTime {
+	text-align: right;
+}
+
+/* jssor slider arrow navigator skin 05 css */
+/*
+            .jssora05l              (normal)
+            .jssora05r              (normal)
+            .jssora05l:hover        (normal mouseover)
+            .jssora05r:hover        (normal mouseover)
+            .jssora05ldn            (mousedown)
+            .jssora05rdn            (mousedown)
+            */
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(img/a17.png) no-repeat;
+	overflow: hidden;
+}
+
+.jssora05l {
+	background-position: -10px -40px;
+}
+
+.jssora05r {
+	background-position: -70px -40px;
+}
+
+.jssora05l:hover {
+	background-position: -130px -40px;
+}
+
+.jssora05r:hover {
+	background-position: -190px -40px;
+}
+
+.jssora05ldn {
+	background-position: -250px -40px;
+}
+
+.jssora05rdn {
+	background-position: -310px -40px;
+}
+
+/* jssor slider thumbnail navigator skin 02 css */
+/*
+                .jssort02 .p            (normal)
+                .jssort02 .p:hover      (normal mouseover)
+                .jssort02 .pav          (active)
+                .jssort02 .pav:hover    (active mouseover)
+                .jssort02 .pdn          (mousedown)
+                */
+.jssort02 .w {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.jssort02 .c {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: #000 2px solid;
+}
+
+.jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
+	background: url(img/t01.png) center center;
+	border-width: 0px;
+	top: 2px;
+	left: 2px;
+	width: 100%;
+	height: 100%;
+}
+
+.jssort02 .p:hover .c, .jssort02 .pav:hover .c {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: #fff 1px solid;
+}

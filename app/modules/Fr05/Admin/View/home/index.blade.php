@@ -1,0 +1,1 @@
+@extends (VIEW_ADMIN . '::template')

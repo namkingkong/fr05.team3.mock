@@ -1,0 +1,180 @@
+/*---------------------------------------------------------------------------- */
+/*----------------------------------- TAGS ----------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	
+	font-family: abel, sans-serif;
+	
+	position: relative;
+}
+
+/*---------------------------------------------------------------------------- */
+/*--------------------------------- (H)EADER --------------------------------- */
+
+h1, h2, h3, h4, h5, h6 { margin: 10px 0; }
+
+.panel-body h1,
+.panel-body h2,
+.panel-body h3,
+.panel-body h4,
+.panel-body h5,
+.panel-body h6 {
+/*	margin: 0 0 10px 0;*/
+}
+
+/*---------------------------------------------------------------------------- */
+/*---------------------------------- BUTTON ---------------------------------- */
+
+.btn {
+    position: relative;
+    border-bottom-width: 3px;
+    border-color: rgba(0,0,0,0.3);
+    padding: 5px 10px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+/*    font-size: 0.9em;*/
+}
+.btn:active {
+    border-bottom-width: 1px;
+	/* Use margin-top instead of top:2px */
+    margin-top: 2px;
+	/* Remove box-shadow from the origin */
+    -webkit-box-shadow: none;
+	box-shadow: none;
+}
+.btn:focus {
+	/* Remove the dotted outline */
+    outline: none;
+}
+
+/*---------------------------------------------------------------------------- */
+/*-------------------------------- GRID SYSTEM ------------------------------- */
+
+/* div[class*=col-] { */
+/*     padding-left:	10px; */
+/*     padding-right:	10px; */
+/* 	margin-bottom:	10px; */
+/* } */
+/* .row { */
+/*     padding-left:	-10px; */
+/*     padding-right:	-1opx; */
+/* } */
+/* .container { */
+/*     padding-right:	10px; */
+/*     padding-left:	10px; */
+/* } */
+
+hr {
+	border-color: rgba(0,0,0,0.2);
+}
+
+/*---------------------------------------------------------------------------- */
+/*---------------------------------- PANEL ----------------------------------- */
+
+.panel {
+	margin: 0;
+}
+
+.panel {
+	border: none !important;
+}
+.panel .panel-heading {
+	background: inherit;
+	border: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+.panel .panel-body {
+	background-color: white;
+	padding: 10px;
+	
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px 5px 3px 3px;
+}
+.panel .panel-footer {
+	background: inherit;
+	border: none;
+}
+
+.panel-default,
+.panel-primary,
+.panel-success,
+.panel-info,
+.panel-warning,
+.panel-danger {
+}
+
+.panel-default {
+	background-color: gray;
+}
+.panel-default .panel-body {
+	border-color: gray;
+}
+
+.panel-primary {
+	background-color: #428BCA;
+}
+.panel-primary .panel-body {
+	border-color: #428BCA;
+}
+
+.panel-success {
+	background-color: #5CB85C;
+}
+.panel-success .panel-body {
+	border-color: #5CB85C;
+}
+
+.panel-info {
+	background-color: #5BC0DE;
+}
+.panel-info .panel-body {
+	border-color: #5BC0DE;
+}
+
+.panel-warning {
+	background-color: #F0AD4E;
+}
+.panel-warning .panel-body {
+	border-color: #F0AD4E;
+}
+
+.panel-danger {
+	background-color: #D9534F;
+}
+.panel-danger .panel-body {
+	border-color: #D9534F;
+}
+
+/*---------------------------------------------------------------------------- */
+/*---------------------------------- MEDIA ----------------------------------- */
+
+.media img {
+	border: 1px solid gray;
+	padding: 2px;
+	border-radius: 4px;
+}
+.media .media-body .media-heading {
+	background-color: gray;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 0 3px;
+	text-align: right;
+}
+
+/*---------------------------------------------------------------------------- */
+/*-------------------------------- THUMBNAIL --------------------------------- */
+
+.thumbnail {
+	margin: 0;
+}
+
+.thumbnail .caption {
+	padding: 0 9px;
+}

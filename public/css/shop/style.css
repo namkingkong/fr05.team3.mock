@@ -1,0 +1,190 @@
+@font-face {
+    font-family: GE_Inspira;
+    src: url("font/ge_inspira.ttf");
+}
+
+* {
+    font-family: GE_Inspira;
+}
+
+hr {
+/* 	border-color: #f2b3ab; */
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+#navbar-top {
+    padding-top:    20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    border: none;
+    background-color: white;
+}
+#navbar-top .navbar-brand {
+	color: #E74C3C;
+}
+#navbar-top .navbar-toggle {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border-color: #E74C3C;
+}
+#navbar-top .navbar-toggle span {
+    color: #E74C3C !important;
+}
+#navbar-top .navbar-toggle:hover,
+#navbar-top .navbar-toggle:focus {
+    background-color: #E74C3C;
+}
+#navbar-top .navbar-toggle:hover span,
+#navbar-top .navbar-toggle:focus span {
+    color: white !important;
+}
+#navbar-top .navbar-form {
+    border: none;
+}
+
+
+
+#navbar-categories {
+    border: none;
+    background-color: #E74C3C;
+}
+#navbar-categories * {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#navbar-categories li {
+    transition: all 200ms linear;
+    background-color: rgba(0,0,0,0);
+}
+#navbar-categories #top-nav > li+li {
+    border-left:    solid 2px #FFF;
+}
+@media screen and (max-width: 767px) {
+    #navbar-categories {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    #navbar-categories li {
+        border-left: none !important;
+    }
+}
+#navbar-categories li:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+#navbar-categories .navbar-toggle {
+    border-color: white;
+}
+#navbar-categories .navbar-toggle span {
+    color: white !important;
+    text-shadow: none;
+}
+#navbar-categories .navbar-toggle:hover,
+#navbar-categories .navbar-toggle:focus {
+    background-color: white;
+}
+#navbar-categories .navbar-toggle:hover span,
+#navbar-categories .navbar-toggle:focus span {
+    color: #E74C3C !important;
+}
+
+@media screen and (min-width: 768px) {
+    #navbar-categories #top-nav > li {
+        position: static;
+    }
+    #navbar-categories .container {
+        position: relative;
+    }
+    #navbar-categories .dropdown-menu {
+        width: 100% !important;
+        background-color: #E74C3C;
+        border: none;
+        border-top: solid 2px rgba(0,0,0,0);
+        border-radius: 0;
+    }
+    #navbar-categories .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    #navbar-categories .dropdown-menu ul {
+        list-style-type: none;
+    }
+    #navbar-categories .dropdown-menu > ul {
+        padding-left:   5px !important;
+        padding-right:  5px !important;
+    }
+    #navbar-categories .dropdown-menu > li > a {
+        border-bottom: solid 2px rgba(0,0,0,0.2);
+    }
+    #navbar-categories .dropdown-menu li {
+        background-color: inherit;
+    }
+    #navbar-categories .dropdown-menu li ul {
+        padding-left:   20px !important;
+    }
+    #navbar-categories .dropdown-menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    #navbar-categories .dropdown-menu a:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+}
+
+
+#banner {
+    height: 400px;
+    overflow: hidden;
+    background: white;
+    border: solid 4px #E74C3C;
+    border-radius: 4px;
+}
+#banner .carousel-control,
+#banner .carousel-indicators li {
+    color: #E74C3C;
+}
+#banner .carousel-indicators li {
+    background-color: white;
+    border: solid 2px #E74C3C;
+}
+#banner .carousel-indicators li.active {
+    background-color: #E74C3C;
+}
+#banner .carousel-inner img {
+/*
+    min-width: 100%;
+    max-width: 100%;
+    transform: translateY(-30%)
+*/
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#sidebar .panel {
+	border-color: #E74C3C;
+}
+#sidebar .panel .panel-heading {
+	background-color: #E74C3C;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#sidebar .list-group-item {
+	border: none;
+}
+
+#sidebar #lstCategories a.active {
+	font-weight: bold;
+}
+
+#sidebar #lstBrands label {
+	font-weight: lighter;
+}
+#sidebar #lstBrands input:checked + span {
+	font-weight: bold;
+}
