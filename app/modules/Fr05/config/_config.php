@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * CONFIG COLLECTION
+ */
+
 use Fr05\Helper\Config;
 
 require_once 'defines.php';
